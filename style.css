@@ -496,75 +496,51 @@ h1 {
 .partner-logo {
   width: 100px;
   filter: grayscale(1);
+  margin: 0 5%;
 }
 
 .partner-logo:hover {
   filter: grayscale(0);
 }
 
-.msh-logo {
-  margin-top: 15%;
-}
-
-.msk-logo {
-  margin-top: 10%;
-}
-
-.blue-company-logo {
-  margin-top: 2%;
-}
-
-@keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-
-  100% {
-    transform: translateX(calc(-250px * 7));
-  }
-}
-
-.slider {
-  /*   background: white;
-  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125); */
-  height: 150px;
-  margin: auto;
+.sliderz {
   overflow: hidden;
-  position: relative;
-  width: 960px;
+}
+.slider {
+    animation: slidein 30s linear infinite;
+    white-space: nowrap;
+  }
+.logos {
+      width: 100%;
+      display: inline-block;
+      margin: 0px 2%;
+    }
+.fab {
+        width: calc(100% / 5);
+        animation: fade-in 0.5s 
+          cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
 }
 
-.slider::before, .slider::after {
-  /*   background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%); */
-  content: "";
-  height: 100px;
-  position: absolute;
-  width: 200px;
-  z-index: 2;
+
+@keyframes slidein {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-100%, 0, 0);
+  }
 }
 
-.slider::after {
-  right: 0;
-  top: 0;
-  transform: rotateZ(180deg);
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
-.slider::before {
-  left: 0;
-  top: 0;
-}
 
-.slider .slide-track {
-  animation: scroll 20s linear infinite;
-  display: flex;
-  width: calc(250px * 14);
-}
-
-.slider .slide {
-  height: 100px;
-  width: 250px;
-  padding-left: 20px;
-}
 
 /* cards-style-section */
 #card-events-section {
@@ -1906,7 +1882,7 @@ ul {
   background-position: center;
   background-size: cover;
   animation: change-bg 6s ease-in-out infinite;
-  padding-bottom: 8%;
+  padding-bottom: 1%;
 }
 
 #FAQS-CONTENT {
@@ -2020,3 +1996,4 @@ ul {
   font-family: 'Poppins', sans-serif;
   overflow-x: hidden;
 }
+
