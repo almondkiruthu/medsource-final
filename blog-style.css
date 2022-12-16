@@ -6,7 +6,77 @@ body {
 	color: #b3b9b2;
 	font-size: 16px;
 }
-
+/* nav-styles */
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  
+  .logo-img {
+    width: 200px;
+  }
+  
+  .nav-item {
+    padding: 0 15px;
+  }
+  
+  .nav-link {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #000;
+  }
+  
+  .nav-link:hover {
+    color: #e36f1e;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    background-color: #e36f1e;
+    color: #fff;
+  }
+  
+  .custom-toggler.navbar-toggler {
+    border-color: #e36f1e;
+  }
+  
+  .custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(227, 111, 30, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+  /* welcome page -styles  */
+  #welcome-page {
+    overflow-x: hidden;
+    color: #004730;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    animation: change-bg 6s ease-in-out infinite;
+  }
+  
+  @keyframes change-bg {
+    from {
+      background: linear-gradient(90deg, rgba(255, 255, 255, .3) 50%, rgba(255, 255, 255, .3) 50%), url("images/patternpad.svg");
+      background-position: center;
+      background-size: cover;
+    }
+  
+    to {
+      background: linear-gradient(90deg, rgba(255, 255, 255, .3) 50%, rgba(255, 255, 255, .3) 50%), url("images/pattern3.png");
+      background-position: center;
+      background-size: cover;
+    }
+  }
+  
+  .container-fluid {
+    width: 100%;
+    height: 100%;
+    padding-top: 0%;
+    padding-bottom: 5%;
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+  
 h1 {
 	font-size: 64px;
 }
