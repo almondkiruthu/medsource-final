@@ -84,7 +84,7 @@ h1 {
 h2 {
 	font-size: 36px;
 	font-weight: 400;
-	color: #9ec19e;
+	color: #e36f1e;
 }
 
 img {
@@ -103,7 +103,7 @@ article {
 
 .main-title {
 	position: absolute;
-	color: #9ec19e;
+	color: #e36f1e;
 	margin-top: 80px;
 	padding: 0 42px;
 	z-index: 1;
@@ -141,7 +141,7 @@ p {
 blockquote {
 	font-style: italic;
 	font-weight: 700;
-	color: #759976;
+	color: #e36f1e;
 }
 /* contact-section-styles-section */
 .row-get-in-touch {
