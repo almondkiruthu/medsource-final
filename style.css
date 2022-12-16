@@ -515,10 +515,13 @@ h1 {
 .logos {
       width: 100%;
       display: inline-block;
-      margin: 0px 2%;
+      margin: 0px 3%;
       padding-top: 2%;
       padding-bottom: 5%;
     }
+.logos2{
+  padding-right: 2%;
+}
 .fab {
         width: calc(100% / 5);
         animation: fade-in 0.5s 
@@ -546,6 +549,9 @@ h1 {
 @media screen and (max-width:768px) {
   .logos{
     margin: 0px 30%;
+  }
+  .logos2{
+    padding-right: 2%;
   }
 }
 
