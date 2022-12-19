@@ -712,7 +712,10 @@ a.blog-btn:active {
   padding-left: 5%;
   padding-bottom: 5%;
   padding-top: 5%;
-  background: #fff;
+  background:linear-gradient(90deg, rgba(255, 255, 255, .3) 50%, rgba(255, 255, 255, .3) 50%), url("images/waves.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .who-we-work-with2-text {
@@ -725,7 +728,7 @@ a.blog-btn:active {
 /* who-we-work-with2 buttons styles section */
 .pharm-btn {
   position: relative;
-  margin-top: 17%;
+  margin-top: 8%;
 }
 
 .hospital-btn {
@@ -734,14 +737,27 @@ a.blog-btn:active {
 
 .dist-btn {
   position: relative;
-  margin-top: 52%;
+  margin-top: 37%;
 }
 
 .manu-btn {
   position: relative;
-  margin-top: 35%;
+  margin-top: 30%;
+}
+.pharmacy-client{
+  height: 100%;
+  margin-bottom:%;
+}
+.distributor-client{
+  height: 50%;
+  /* margin-bottom: 15%; */
+}
+.manufacturer-client{
+
 }
 
+/* BREAK *******************************************
+****************************** */
 .second-btn {
   margin-top: 5%;
   font-weight: 56;
