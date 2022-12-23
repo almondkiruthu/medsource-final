@@ -1353,6 +1353,28 @@ section.t-bq-section {
   }
 }
 
+
+
+
+/* THIS IS THE MEDIA CONSENT FORM STYLE-SECTION */
+/* *****************************************
+*****************************************
+*****************************************
+*****************************************
+*****************************************
+*****************************************
+***************************************** */
+#media-consent-form{
+  text-align: center;
+  background: linear-gradient(90deg, rgba(255, 255, 255, .3) 50%, rgba(255, 255, 255, .3) 50%), url("images/pattern3.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family:'Poppins', sans-serif;
+}
+
+
+
 /* THIS IS OUR MEET THE TEAM STYLE-SECTION */
 /* *****************************************
 *****************************************
